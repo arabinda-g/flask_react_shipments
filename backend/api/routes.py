@@ -109,4 +109,30 @@ def create_data():
     new_shipment = Shipment(**data)
     db.session.add(new_shipment)
     db.session.commit()
-    return jsonify({'message': 'Data created successfully', 'id': new_shipment.id}), 201
+    return jsonify({
+        'id': new_shipment.id,
+        'file_id': new_shipment.file_id,
+        'region': new_shipment.region,
+        'country': new_shipment.country,
+        'item_type': new_shipment.item_type,
+        'fiscal_year': new_shipment.fiscal_year,
+        'sales_channel': new_shipment.sales_channel,
+        'order_priority': new_shipment.order_priority,
+        'order_date': new_shipment.order_date.strftime('%Y-%m-%d'),
+        'order_id': new_shipment.order_id,
+        'ship_date': new_shipment.ship_date.strftime('%Y-%m-%d'),
+        'units_sold': new_shipment.units_sold,
+        'unit_price': new_shipment.unit_price,
+        'unit_cost': new_shipment.unit_cost,
+        'total_revenue': new_shipment.total_revenue,
+        'total_cost': new_shipment.total_cost,
+        'total_profit': new_shipment.total_profit,
+        'email': new_shipment.email
+    }), 201
+
+@api.route('/delete-data/<int:id>', methods=['DELETE'])
+def delete_data(id):
+    shipment = Shipment.query.get_or_404(id)
+    db.session.delete(shipment)
+    db.session.commit()
+    return jsonify({'message': 'Data deleted successfully'}), 200
