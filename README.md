@@ -3,7 +3,6 @@ A simple Flask application with React frontend which can import a csv file into 
 
 ## Installation
 1. Clone the repository
-<!-- Execute pip install -r requirements.txt -->
 2. Install the required packages in the backend folder
 ```bash
 pip install -r requirements.txt
