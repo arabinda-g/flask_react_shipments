@@ -40,22 +40,28 @@ function DataTable() {
   }, [file_id]);
 
   const updateMyData = (rowIndex, columnId, value) => {
-    setData(old =>
-      old.map((row, index) => {
-        if (index === rowIndex) {
-          return {
-            ...old[rowIndex],
-            [columnId]: value,
-          };
-        }
-        return row;
-      })
-    );
+    const updatedRows = data.map((row, index) => {
+      if (index === rowIndex) {
+        return { ...row, [columnId]: value };
+      }
+      return row;
+    });
+    setData(updatedRows);
+  
+    // Call api to update the data
+    axios.post(`${process.env.REACT_APP_API_URL}/api/update-data`, updatedRows[rowIndex])
+      .then(response => console.log("Data updated:", response))
+      .catch(error => console.error("Error updating data:", error));
   };
 
   const addRow = () => {
-    const newRow = { region: '', country: '', item_type: '', fiscal_year: '', sales_channel: '', order_priority: '', order_date: '', order_id: '', ship_date: '', units_sold: '', unit_price: '', unit_cost: '', total_revenue: '', total_cost: '', total_profit: '', email: '' };
+    const newRow = { region: '', country: '', item_type: '', fiscal_year: '', sales_channel: '', order_priority: '', order_date: '', order_id: '', ship_date: '', units_sold: '', unit_price: '', unit_cost: '', total_revenue: '', total_cost: '', total_profit: '', email: '', file_id };
     setData([...data, newRow]);
+  
+    // Call api to create new data
+    axios.post(`${process.env.REACT_APP_API_URL}/api/create-data`, newRow)
+      .then(response => console.log("Data created:", response))
+      .catch(error => console.error("Error creating data:", error));
   };
   
 
@@ -93,7 +99,7 @@ function DataTable() {
                 <th {...column.getHeaderProps(column.getSortByToggleProps())}>
                   {column.render('Header')}
                   <span>
-                    {column.isSorted ? (column.isSortedDesc ? 'DESC' : 'ASC') : ''}
+                    {column.isSorted ? (column.isSortedDesc ? ' 🔽' : ' 🔼') : ''}
                   </span>
                 </th>
               ))}

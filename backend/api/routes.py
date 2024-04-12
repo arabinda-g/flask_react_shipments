@@ -62,7 +62,7 @@ def file_upload():
 def get_data(file_id):
     file = File.query.get(file_id)
     if file:
-        shipments = Shipment.query.filter_by(file_id=file_id).all()
+        shipments = Shipment.query.filter_by(file_id=file_id).order_by(Shipment.id).all()
         data = []
         for shipment in shipments:
             data.append(
@@ -89,3 +89,24 @@ def get_data(file_id):
             )
         return jsonify(data)
     return jsonify({"error": "File not found"}), 404
+
+@api.route('/update-data', methods=['POST'])
+def update_data():
+    data = request.json
+    shipment = Shipment.query.filter_by(id=data['id']).first()
+    if not shipment:
+        return jsonify({'error': 'Data not found'}), 404
+
+    for key, value in data.items():
+        setattr(shipment, key, value)
+    
+    db.session.commit()
+    return jsonify({'message': 'Data updated successfully'}), 200
+
+@api.route('/create-data', methods=['POST'])
+def create_data():
+    data = request.json
+    new_shipment = Shipment(**data)
+    db.session.add(new_shipment)
+    db.session.commit()
+    return jsonify({'message': 'Data created successfully', 'id': new_shipment.id}), 201
