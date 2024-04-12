@@ -11,7 +11,7 @@ function App() {
       <div className="App">
         <Routes>
           <Route path="/" element={<HomePage />} />
-          <Route path="/data/:filename" element={<DataTable />} />
+          <Route path="/data/:file_id" element={<DataTable />} />
         </Routes>
       </div>
     </Router>

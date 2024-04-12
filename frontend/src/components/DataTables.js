@@ -5,22 +5,23 @@ import { useTable, useSortBy } from 'react-table';
 import DataModal from './ModalComponent';
 
 function DataTable() {
-  const { filename } = useParams();
+  const { file_id } = useParams();
   const [data, setData] = useState([]);
   const [modalShow, setModalShow] = useState(false);
   const [currentData, setCurrentData] = useState({});
 
   useEffect(() => {
-    if (filename) {
-      axios.get(`${process.env.REACT_APP_API_URL}/api/data/${filename}`)
+    if (file_id) {
+      axios.get(`${process.env.REACT_APP_API_URL}/api/data/${file_id}`)
         .then(response => setData(response.data))
         .catch(error => console.log(error));
     }
-  }, [filename]);
+  }, [file_id]);
 
   const addRow = () => {
     const newRow = {
       id: null,
+      file_id: file_id,
       region: '',
       country: '',
       item_type: '',
