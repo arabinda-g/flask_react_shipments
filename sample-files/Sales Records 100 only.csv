@@ -1,0 +1,101 @@
+Region,Country,Item Type,Fiscal Year,Sales Channel,Order Priority,Order Date,Order ID,Ship Date,Units Sold,Unit Price,Unit Cost,Total Revenue,Total Cost,Total Profit,Email
+Sub-Saharan Africa,South Africa,Fruits,2012,Offline,M,7/27/12,443368995,7/28/12,1593,9.33,6.92,14862.69,11023.56,3839.13,Sub-Saharan AfricaFruits@email.com
+Middle East and North Africa,Morocco,Clothes,2013,Online,M,9/14/13,667593514,10/19/13,4611,109.28,35.84,503890.08,165258.24,338631.84,Middle East and North AfricaClothes@email.com
+Australia and Oceania,Papua New Guinea,Meat,2015,Offline,M,5/15/15,940995585,6/4/15,360,421.89,364.69,151880.4,131288.4,20592,Australia and OceaniaMeat@email.com
+Sub-Saharan Africa,Djibouti,Clothes,2017,Offline,H,5/17/17,880811536,7/2/17,562,109.28,35.84,61415.36,20142.08,41273.28,Sub-Saharan AfricaClothes@email.com
+Europe,Slovakia,Beverages,2016,Offline,L,10/26/16,174590194,12/4/16,3973,47.45,31.79,188518.85,126301.67,62217.18,EuropeBeverages@email.com
+Asia,Sri Lanka,Fruits,2011,Online,L,11/7/11,830192887,12/18/11,1379,9.33,6.92,12866.07,9542.68,3323.39,AsiaFruits@email.com
+Sub-Saharan Africa,Seychelles ,Beverages,2013,Online,M,1/18/13,425793445,2/16/13,597,47.45,31.79,28327.65,18978.63,9349.02,Sub-Saharan AfricaBeverages@email.com
+Sub-Saharan Africa,Tanzania,Beverages,2016,Online,L,11/30/16,659878194,1/16/17,1476,47.45,31.79,70036.2,46922.04,23114.16,Sub-Saharan AfricaBeverages@email.com
+Sub-Saharan Africa,Ghana,Office Supplies,2017,Online,L,3/23/17,601245963,4/15/17,896,651.21,524.96,583484.16,470364.16,113120,Sub-Saharan AfricaOffice Supplies@email.com
+Sub-Saharan Africa,Tanzania,Cosmetics,2016,Offline,L,5/23/16,739008080,5/24/16,7768,437.2,263.33,3396169.6,2045547.44,1350622.16,Sub-Saharan AfricaCosmetics@email.com
+Asia,Taiwan,Fruits,2014,Offline,M,2/9/14,732588374,2/23/14,8034,9.33,6.92,74957.22,55595.28,19361.94,AsiaFruits@email.com
+Middle East and North Africa,Algeria,Cosmetics,2011,Online,M,2/18/11,761723172,2/24/11,9669,437.2,263.33,4227286.8,2546137.77,1681149.03,Middle East and North AfricaCosmetics@email.com
+Asia,Singapore,Snacks,2013,Online,C,1/28/13,176461303,2/7/13,7676,152.58,97.44,1171204.08,747949.44,423254.64,AsiaSnacks@email.com
+Australia and Oceania,Papua New Guinea,Clothes,2011,Offline,L,6/20/11,647164094,7/14/11,9092,109.28,35.84,993573.76,325857.28,667716.48,Australia and OceaniaClothes@email.com
+Asia,Vietnam,Personal Care,2010,Online,M,4/4/10,314505374,5/6/10,7984,81.73,56.67,652532.32,452453.28,200079.04,AsiaPersonal Care@email.com
+Sub-Saharan Africa,Uganda,Personal Care,2014,Online,M,6/19/14,539471471,7/21/14,451,81.73,56.67,36860.23,25558.17,11302.06,Sub-Saharan AfricaPersonal Care@email.com
+Sub-Saharan Africa,Zimbabwe,Office Supplies,2011,Offline,C,3/28/11,953361213,4/8/11,9623,651.21,524.96,6266593.83,5051690.08,1214903.75,Sub-Saharan AfricaOffice Supplies@email.com
+Sub-Saharan Africa,Ethiopia,Cosmetics,2011,Online,M,7/7/11,807785928,7/25/11,662,437.2,263.33,289426.4,174324.46,115101.94,Sub-Saharan AfricaCosmetics@email.com
+Europe,France,Cosmetics,2015,Online,M,12/7/15,324669444,1/18/16,5758,437.2,263.33,2517397.6,1516254.14,1001143.46,EuropeCosmetics@email.com
+Central America and the Caribbean,The Bahamas,Personal Care,2011,Online,C,1/19/11,246248090,2/21/11,9137,81.73,56.67,746767.01,517793.79,228973.22,Central America and the CaribbeanPersonal Care@email.com
+Central America and the Caribbean,Haiti,Office Supplies,2010,Online,C,12/31/10,485070693,1/31/11,2052,651.21,524.96,1336282.92,1077217.92,259065,Central America and the CaribbeanOffice Supplies@email.com
+Central America and the Caribbean,Nicaragua,Household,2015,Online,C,10/28/15,573998582,12/7/15,7791,668.27,502.54,5206491.57,3915289.14,1291202.43,Central America and the CaribbeanHousehold@email.com
+Asia,Turkmenistan,Vegetables,2015,Online,M,4/13/15,116205585,6/2/15,6670,154.06,90.93,1027580.2,606503.1,421077.1,AsiaVegetables@email.com
+Europe,United Kingdom,Cosmetics,2015,Online,L,5/1/15,135178029,5/16/15,1038,437.2,263.33,453813.6,273336.54,180477.06,EuropeCosmetics@email.com
+Central America and the Caribbean,Dominican Republic,Baby Food,2011,Offline,H,8/25/11,824714744,9/24/11,274,255.28,159.42,69946.72,43681.08,26265.64,Central America and the CaribbeanBaby Food@email.com
+Asia,China,Office Supplies,2016,Online,M,2/10/16,198927056,3/29/16,5791,651.21,524.96,3771157.11,3040043.36,731113.75,AsiaOffice Supplies@email.com
+Sub-Saharan Africa,Uganda,Cosmetics,2015,Online,M,2/28/15,842238795,3/15/15,6031,437.2,263.33,2636753.2,1588143.23,1048609.97,Sub-Saharan AfricaCosmetics@email.com
+Middle East and North Africa,Kuwait,Household,2011,Offline,C,6/13/11,459386289,7/21/11,1466,668.27,502.54,979683.82,736723.64,242960.18,Middle East and North AfricaHousehold@email.com
+Middle East and North Africa,United Arab Emirates,Office Supplies,2012,Online,M,6/23/12,425418365,7/6/12,9603,651.21,524.96,6253569.63,5041190.88,1212378.75,Middle East and North AfricaOffice Supplies@email.com
+Europe,Estonia,Household,2011,Offline,H,9/1/11,835696351,10/21/11,9976,668.27,502.54,6666661.52,5013339.04,1653322.48,EuropeHousehold@email.com
+Asia,Malaysia,Beverages,2014,Online,M,11/13/14,955894076,12/28/14,9154,47.45,31.79,434357.3,291005.66,143351.64,AsiaBeverages@email.com
+Australia and Oceania,Vanuatu,Fruits,2013,Online,C,11/3/13,571997869,11/11/13,5735,9.33,6.92,53507.55,39686.2,13821.35,Australia and OceaniaFruits@email.com
+Asia,India,Snacks,2012,Online,L,10/10/12,440306556,11/20/12,5349,152.58,97.44,816150.42,521206.56,294943.86,AsiaSnacks@email.com
+Australia and Oceania,Samoa ,Household,2016,Online,L,12/5/16,937431466,12/8/16,5657,668.27,502.54,3780403.39,2842868.78,937534.61,Australia and OceaniaHousehold@email.com
+Asia,Kazakhstan,Snacks,2013,Online,L,9/8/13,710296428,10/25/13,1352,152.58,97.44,206288.16,131738.88,74549.28,AsiaSnacks@email.com
+Europe,Czech Republic,Cosmetics,2014,Online,H,3/22/14,726137769,4/26/14,9157,437.2,263.33,4003440.4,2411312.81,1592127.59,EuropeCosmetics@email.com
+Europe,Belgium,Personal Care,2011,Online,H,11/1/11,222504317,11/20/11,2827,81.73,56.67,231050.71,160206.09,70844.62,EuropePersonal Care@email.com
+Europe,Finland,Household,2016,Offline,H,1/15/16,757257401,1/31/16,8148,668.27,502.54,5445063.96,4094695.92,1350368.04,EuropeHousehold@email.com
+Middle East and North Africa,Oman,Cosmetics,2010,Online,H,11/29/10,358570849,12/28/10,7937,437.2,263.33,3470056.4,2090050.21,1380006.19,Middle East and North AfricaCosmetics@email.com
+Central America and the Caribbean,Dominica,Household,2011,Offline,C,11/19/11,274930989,12/13/11,7044,668.27,502.54,4707293.88,3539891.76,1167402.12,Central America and the CaribbeanHousehold@email.com
+Europe,Serbia,Clothes,2016,Offline,L,7/6/16,925136649,7/13/16,7348,109.28,35.84,802989.44,263352.32,539637.12,EuropeClothes@email.com
+Sub-Saharan Africa,Sao Tome and Principe,Clothes,2015,Offline,L,11/11/15,548299157,12/28/15,2760,109.28,35.84,301612.8,98918.4,202694.4,Sub-Saharan AfricaClothes@email.com
+Asia,Brunei,Cereal,2013,Offline,L,5/28/13,153842341,7/16/13,4222,205.7,117.11,868465.4,494438.42,374026.98,AsiaCereal@email.com
+Middle East and North Africa,Israel,Beverages,2013,Offline,H,9/8/13,371502530,10/13/13,4709,47.45,31.79,223442.05,149699.11,73742.94,Middle East and North AfricaBeverages@email.com
+Australia and Oceania,Solomon Islands,Household,2010,Online,M,12/17/10,101328551,12/28/10,4225,668.27,502.54,2823440.75,2123231.5,700209.25,Australia and OceaniaHousehold@email.com
+Sub-Saharan Africa,Togo,Cosmetics,2015,Online,M,9/8/15,563681733,9/9/15,4806,437.2,263.33,2101183.2,1265563.98,835619.22,Sub-Saharan AfricaCosmetics@email.com
+Sub-Saharan Africa,Mauritius ,Clothes,2012,Offline,M,11/17/12,349235904,12/2/12,5520,109.28,35.84,603225.6,197836.8,405388.8,Sub-Saharan AfricaClothes@email.com
+North America,Canada,Cosmetics,2011,Online,H,5/9/11,368977391,6/2/11,7464,437.2,263.33,3263260.8,1965495.12,1297765.68,North AmericaCosmetics@email.com
+Middle East and North Africa,Lebanon,Meat,2017,Online,L,3/8/17,704205024,4/18/17,8770,421.89,364.69,3699975.3,3198331.3,501644,Middle East and North AfricaMeat@email.com
+Sub-Saharan Africa,Tanzania,Fruits,2014,Offline,H,10/20/14,156530129,11/29/14,9599,9.33,6.92,89558.67,66425.08,23133.59,Sub-Saharan AfricaFruits@email.com
+Asia,South Korea,Meat,2016,Offline,L,3/16/16,297876536,4/20/16,7141,421.89,364.69,3012716.49,2604251.29,408465.2,AsiaMeat@email.com
+Asia,Indonesia,Household,2011,Online,C,9/28/11,520480573,9/28/11,623,668.27,502.54,416332.21,313082.42,103249.79,AsiaHousehold@email.com
+Central America and the Caribbean,Antigua and Barbuda ,Office Supplies,2011,Offline,C,10/2/11,286891067,10/4/11,6297,651.21,524.96,4100669.37,3305673.12,794996.25,Central America and the CaribbeanOffice Supplies@email.com
+Middle East and North Africa,Tunisia ,Cosmetics,2012,Offline,H,7/1/12,479969346,7/20/12,2450,437.2,263.33,1071140,645158.5,425981.5,Middle East and North AfricaCosmetics@email.com
+Asia,Thailand,Meat,2015,Online,C,2/4/15,252889239,2/19/15,4401,421.89,364.69,1856737.89,1605000.69,251737.2,AsiaMeat@email.com
+Asia,Nepal,Meat,2014,Online,H,2/21/14,179137074,3/14/14,9496,421.89,364.69,4006267.44,3463096.24,543171.2,AsiaMeat@email.com
+Europe,Montenegro,Clothes,2016,Offline,M,9/4/16,902511680,9/8/16,2117,109.28,35.84,231345.76,75873.28,155472.48,EuropeClothes@email.com
+Europe,Greece,Cereal,2015,Online,H,8/22/15,887124383,10/8/15,8674,205.7,117.11,1784241.8,1015812.14,768429.66,EuropeCereal@email.com
+Europe,Monaco,Beverages,2016,Offline,M,5/29/16,467399013,6/14/16,2609,47.45,31.79,123797.05,82940.11,40856.94,EuropeBeverages@email.com
+Asia,Taiwan,Cereal,2010,Online,H,4/11/10,498071897,5/26/10,9397,205.7,117.11,1932962.9,1100482.67,832480.23,AsiaCereal@email.com
+Europe,Albania,Personal Care,2016,Offline,M,2/6/16,104191863,2/11/16,1543,81.73,56.67,126109.39,87441.81,38667.58,EuropePersonal Care@email.com
+Central America and the Caribbean,Saint Lucia,Fruits,2015,Offline,L,12/12/15,731120240,1/12/16,3581,9.33,6.92,33410.73,24780.52,8630.21,Central America and the CaribbeanFruits@email.com
+Europe,Italy,Cereal,2011,Online,M,11/15/11,294530856,12/28/11,7080,205.7,117.11,1456356,829138.8,627217.2,EuropeCereal@email.com
+Europe,Switzerland,Office Supplies,2014,Offline,C,7/29/14,830410039,8/27/14,5639,651.21,524.96,3672173.19,2960249.44,711923.75,EuropeOffice Supplies@email.com
+Europe,Netherlands,Fruits,2016,Online,L,11/19/16,845056617,11/30/16,9887,9.33,6.92,92245.71,68418.04,23827.67,EuropeFruits@email.com
+Europe,Sweden,Beverages,2012,Online,H,9/13/12,265081918,10/12/12,2485,47.45,31.79,117913.25,78998.15,38915.1,EuropeBeverages@email.com
+Europe,Italy,Cereal,2015,Online,C,11/30/15,887409770,12/5/15,3126,205.7,117.11,643018.2,366085.86,276932.34,EuropeCereal@email.com
+Sub-Saharan Africa,Burundi,Beverages,2011,Online,H,3/9/11,529276502,4/9/11,3533,47.45,31.79,167640.85,112314.07,55326.78,Sub-Saharan AfricaBeverages@email.com
+Europe,Iceland,Baby Food,2010,Offline,M,10/2/10,678230941,11/3/10,2462,255.28,159.42,628499.36,392492.04,236007.32,EuropeBaby Food@email.com
+Europe,Finland,Vegetables,2012,Offline,C,10/9/12,642134416,11/27/12,698,154.06,90.93,107533.88,63469.14,44064.74,EuropeVegetables@email.com
+Sub-Saharan Africa,Rwanda,Fruits,2012,Online,L,9/5/12,699160754,9/15/12,6059,9.33,6.92,56530.47,41928.28,14602.19,Sub-Saharan AfricaFruits@email.com
+Asia,Japan,Household,2014,Offline,M,7/16/14,747796285,7/24/14,8393,668.27,502.54,5608790.11,4217818.22,1390971.89,AsiaHousehold@email.com
+Europe,Romania,Beverages,2012,Online,M,2/19/12,756839835,3/13/12,4581,47.45,31.79,217368.45,145629.99,71738.46,EuropeBeverages@email.com
+Central America and the Caribbean,Belize,Personal Care,2015,Online,H,6/14/15,315402734,8/2/15,3533,81.73,56.67,288752.09,200215.11,88536.98,Central America and the CaribbeanPersonal Care@email.com
+Middle East and North Africa,Egypt,Clothes,2016,Online,C,8/9/16,882908809,8/24/16,1192,109.28,35.84,130261.76,42721.28,87540.48,Middle East and North AfricaClothes@email.com
+Australia and Oceania,Tonga,Baby Food,2016,Online,L,5/11/16,839094388,5/31/16,5531,255.28,159.42,1411953.68,881752.02,530201.66,Australia and OceaniaBaby Food@email.com
+Asia,Thailand,Fruits,2012,Offline,C,9/30/12,434008300,11/14/12,1555,9.33,6.92,14508.15,10760.6,3747.55,AsiaFruits@email.com
+Central America and the Caribbean,Dominica,Beverages,2012,Online,L,6/12/12,438011872,7/18/12,6301,47.45,31.79,298982.45,200308.79,98673.66,Central America and the CaribbeanBeverages@email.com
+Sub-Saharan Africa,Ghana,Clothes,2011,Online,M,11/2/11,791778934,12/1/11,3836,109.28,35.84,419198.08,137482.24,281715.84,Sub-Saharan AfricaClothes@email.com
+Australia and Oceania,East Timor,Cereal,2015,Offline,M,12/7/15,156295812,12/30/15,259,205.7,117.11,53276.3,30331.49,22944.81,Australia and OceaniaCereal@email.com
+Sub-Saharan Africa,The Gambia,Fruits,2011,Online,C,11/20/11,862861335,11/22/11,8699,9.33,6.92,81161.67,60197.08,20964.59,Sub-Saharan AfricaFruits@email.com
+Sub-Saharan Africa,Mali,Household,2010,Offline,M,8/19/10,363086831,9/7/10,4317,668.27,502.54,2884921.59,2169465.18,715456.41,Sub-Saharan AfricaHousehold@email.com
+Asia,Indonesia,Personal Care,2012,Offline,L,10/22/12,678896129,10/31/12,9306,81.73,56.67,760579.38,527371.02,233208.36,AsiaPersonal Care@email.com
+Europe,Albania,Baby Food,2012,Offline,H,7/19/12,752525556,8/13/12,7890,255.28,159.42,2014159.2,1257823.8,756335.4,EuropeBaby Food@email.com
+Sub-Saharan Africa,Ghana,Fruits,2016,Offline,M,5/29/16,496523940,6/4/16,1323,9.33,6.92,12343.59,9155.16,3188.43,Sub-Saharan AfricaFruits@email.com
+Central America and the Caribbean,Nicaragua,Baby Food,2016,Online,L,11/11/16,343752610,11/16/16,2891,255.28,159.42,738014.48,460883.22,277131.26,Central America and the CaribbeanBaby Food@email.com
+Europe,Italy,Office Supplies,2011,Online,H,3/29/11,797385394,4/11/11,2913,651.21,524.96,1896974.73,1529208.48,367766.25,EuropeOffice Supplies@email.com
+Europe,Moldova ,Fruits,2013,Online,C,1/27/13,180908620,3/3/13,3736,9.33,6.92,34856.88,25853.12,9003.76,EuropeFruits@email.com
+Central America and the Caribbean,The Bahamas,Fruits,2010,Offline,L,6/18/10,488121116,6/30/10,4740,9.33,6.92,44224.2,32800.8,11423.4,Central America and the CaribbeanFruits@email.com
+Europe,Romania,Cereal,2015,Online,M,4/16/15,633134210,4/18/15,7337,205.7,117.11,1509220.9,859236.07,649984.83,EuropeCereal@email.com
+Middle East and North Africa,Pakistan,Meat,2013,Online,M,12/28/13,500371730,2/15/14,9969,421.89,364.69,4205821.41,3635594.61,570226.8,Middle East and North AfricaMeat@email.com
+Sub-Saharan Africa,Madagascar,Clothes,2016,Online,L,10/17/16,494570004,10/26/16,3110,109.28,35.84,339860.8,111462.4,228398.4,Sub-Saharan AfricaClothes@email.com
+North America,United States of America,Personal Care,2016,Online,H,1/21/16,190777862,2/19/16,4264,81.73,56.67,348496.72,241640.88,106855.84,North AmericaPersonal Care@email.com
+Sub-Saharan Africa,Democratic Republic of the Congo,Cosmetics,2012,Online,M,10/7/12,584356629,10/25/12,2967,437.2,263.33,1297172.4,781300.11,515872.29,Sub-Saharan AfricaCosmetics@email.com
+Australia and Oceania,New Zealand,Beverages,2012,Online,M,10/11/12,940980136,11/4/12,5788,47.45,31.79,274640.6,184000.52,90640.08,Australia and OceaniaBeverages@email.com
+Sub-Saharan Africa,Liberia,Baby Food,2015,Offline,H,6/6/15,146634709,6/12/15,1324,255.28,159.42,337990.72,211072.08,126918.64,Sub-Saharan AfricaBaby Food@email.com
+Asia,Turkmenistan,Meat,2017,Online,M,4/30/17,757619178,5/14/17,5206,421.89,364.69,2196359.34,1898576.14,297783.2,AsiaMeat@email.com
+Sub-Saharan Africa,Malawi,Meat,2016,Offline,H,3/1/16,450544869,3/12/16,5094,421.89,364.69,2149107.66,1857730.86,291376.8,Sub-Saharan AfricaMeat@email.com
+Australia and Oceania,Vanuatu,Cereal,2014,Offline,C,6/20/14,572335612,8/5/14,5681,205.7,117.11,1168581.7,665301.91,503279.79,Australia and OceaniaCereal@email.com
+Sub-Saharan Africa,Mali,Baby Food,2015,Online,L,11/3/15,290227735,12/7/15,3691,255.28,159.42,942238.48,588419.22,353819.26,Sub-Saharan AfricaBaby Food@email.com
