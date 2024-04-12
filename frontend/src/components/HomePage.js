@@ -12,11 +12,10 @@ function HomePage() {
       form_data.append('file', file);
       const response = axios.post(`${process.env.REACT_APP_API_URL}/api/upload`, form_data)
         .then(response => {
-          const filename = response.data.path;
-          navigate(`/data/${encodeURIComponent(filename)}`);
+          const file_id = response.data.file_id;
+          navigate(`/data/${encodeURIComponent(file_id)}`);
 
         })
-      // navigate(`/data/${filename}`);
     } catch (error) {
       console.error('Failed to upload file:', error);
     }

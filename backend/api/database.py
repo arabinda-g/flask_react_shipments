@@ -1,5 +1,6 @@
 from .models import db
 
+
 class Database:
     @staticmethod
     def init_app(app):
